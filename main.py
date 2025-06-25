@@ -15,7 +15,6 @@ em.do_init()
 
 while True:
     em.restore()
-    cur_time = time.time()
-    em.survey(cur_time)
+    em.survey()
     sleep_time = em.cal_sleep_time()
     time.sleep(sleep_time)
